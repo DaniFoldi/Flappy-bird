@@ -28,29 +28,29 @@ def draw_background(selected_turtle, witdth, height):
 	selected_turtle.goto(-witdth / 2, height / 2)
 	selected_turtle.goto(-witdth / 2, -height / 2)
 
-def lose_game():
+# def lose_game():
 
-def generate_obstacle():
+# def generate_obstacle():
 
-def character_jump():
+# def character_jump():
 
 def character_gravity(selected_turtle):
 	selected_turtle.sety(selected_turtle.ycor() - gravity * last_jump)
 	last_jump *= 10 / 9.81
 
-def frame():
+# def frame():
 
-def obstacle_shift():
+# def obstacle_shift():
 
-def high_scores():
+# def high_scores():
 
-def clear_terminal():
+# def clear_terminal():
 
-def write_high_score():
+# def write_high_score():
 
-def remove_obstacle():
+# def remove_obstacle():
 
-def make_obstacle():
+# def make_obstacle():
 
 def print_start_game():
 
