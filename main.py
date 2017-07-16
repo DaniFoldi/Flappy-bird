@@ -12,6 +12,8 @@ obstacle_turtles = []
 gravity = -5
 last_jump = 0
 
+score = 0
+
 game_window = turtle.Screen()
 
 
@@ -52,7 +54,7 @@ def make_obstacle():
 
 def print_start_game():
 
-def print_score():
+# def print_score():
 
 def set_speed_instant(selected_turtle):
 	selected_turtle.speed(0)
