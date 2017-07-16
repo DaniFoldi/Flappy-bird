@@ -56,7 +56,11 @@ def character_gravity(selected_turtle):
 
 # def make_obstacle():
 
-def print_start_game():
+def print_start_game(selected_turtle):
+	selected_turtle.hideturtle()
+	selected_turtle.penup()
+	selected_turtle.goto(0, 100)
+	selected_turtle.write("Press Enter to start the game", align = "center", font = ("Arial", "16", "normal"))
 
 # def print_score():
 
