@@ -1,17 +1,13 @@
 import turtle
 
-
 #TURTLES
 backgorund_turtle = turtle.Turtle()
 
 character_turtle = turtle.Turtle()
 
-obstacle1_turtle = turtle.Turtle()
-obstacle2_turtle = turtle.Turtle()
-obstacle3_turtle = turtle.Turtle()
+obstacle_turtles = []
 
-game_window = turtle.window()
-
+game_window = turtle.Screen()
 
 
 #FUNCTIONS:
@@ -28,6 +24,16 @@ def character_gravity():
 def frame():
 
 def obstacle_shift():
+
+def high_scores():
+
+def clear_terminal():
+
+def write_high_score():
+
+def remove_obstacle():
+
+def make_obstacle():
 
 #MAIN LOGIC
 if __name__ == "__main__":
