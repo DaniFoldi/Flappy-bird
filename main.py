@@ -12,6 +12,9 @@ obstacle_turtles = []
 gravity = -5
 last_jump = 0
 
+game_window_width = 600
+game_window_height = 400
+
 score = 0
 
 game_window = turtle.Screen()
