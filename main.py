@@ -18,8 +18,9 @@ game_window = turtle.Screen()
 
 
 #FUNCTIONS:
-def draw_background(selected_turtle, witdth, height):
+def draw_borders(selected_turtle, witdth, height):
 	set_speed_instant(selected_turtle)
+	selected_turtle.hideturtle()
 	selected_turtle.penup()
 	selected_turtle.goto(-witdth / 2, -height / 2)
 	selected_turtle.pendown()
@@ -61,4 +62,4 @@ def set_speed_instant(selected_turtle):
 
 #MAIN LOGIC
 if __name__ == "__main__":
-	draw_background(backgorund_turtle, 400, 250)
+	draw_borders(backgorund_turtle, game_window_width, game_window_height)
